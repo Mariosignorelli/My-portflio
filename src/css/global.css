@@ -4,9 +4,11 @@
     box-sizing: border-box;
     font-family: 'Open Sans' sans-serif;
 }
- body, .container{
+ body{
     background-color: #000;
     color: #fff;
+    background: rgb(255,0,255);
+    background: linear-gradient(145deg, rgba(255,0,255,1) 15%, rgba(0,0,0,1) 55%, rgba(0,0,205,1) 100%);
     
 }
 a{
