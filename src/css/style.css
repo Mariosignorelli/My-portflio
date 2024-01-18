@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 .apresentacao{
   display: flex;
   flex-direction: column;
@@ -9,12 +11,29 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin-top: 1rem;
+  
 }.title{
   text-align:  center  ;
   max-width: 70%;
 }
 .description{
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.3em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%; 
+}
+.description p{
+  margin: .5rem;
+  font-size: 1.2rem;
+  font-family: 'roboto' sans-serif;
+}
+.container{
+  margin: .5rem;
+  padding: .5rem;
+  border: solid 1px #fff;
+  border-radius: 5px;
+}
+.icon {
+  margin-right: 13px;
+  
 }
