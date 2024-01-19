@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
 }
-
+/* header*/
 .photo{
   width: 200px;
   height: 200px;
@@ -37,3 +37,29 @@
   margin-right: 13px;
   
 }
+@media only  screen and (min-width:768px){
+ .container{
+  flex-direction: row;
+  width: 70%;
+ 
+ margin-left: 15%;
+ align-items: center;
+ }
+ .apresentacao{
+  display: flex;
+   flex-direction: row;
+   margin: auto;
+   width:100%;
+  }
+  .description{
+   margin-left: 270px;
+  }
+  .title{
+   margin-left: 45px;
+   text-align: justify;
+  } 
+  .photo{
+    margin-top: 10px;
+  }
+}
+/* Main*/
