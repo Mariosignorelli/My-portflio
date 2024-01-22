@@ -8,6 +8,7 @@ acordeonTigger.forEach((trigger)=>{
                 acordeon.classList.remove('open')
         }else{
             acordeon.classList.add('open')
+            console.log('hep')
         }
     })
 } )
