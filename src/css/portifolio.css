@@ -1,0 +1,28 @@
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    font-size: 1.5rem;
+}
+.project{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+padding: 0.5rem;
+margin-bottom: 1rem;
+}
+.project a{
+   margin-left: 2.8rem; 
+}
+.title{
+    font-weight: 800;
+}
+.title:hover{
+    color: #820082;
+    transition: 0.5s ease-in-out;
+}
