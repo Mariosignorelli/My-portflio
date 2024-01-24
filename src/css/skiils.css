@@ -1,0 +1,13 @@
+
+.skill-list  {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+}
+

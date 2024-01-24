@@ -1,0 +1,13 @@
+.empresas{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.fa-calendar-days{
+    margin-right: 15px;
+}.cargo{
+    list-style-type: none;
+}.cargo p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
