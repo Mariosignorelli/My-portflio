@@ -19,12 +19,10 @@
 .description{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  width: 100%; margin-right:45px;
+  width: 100%; margin-right:15px;
 }
 .description p{
-  margin: .5rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: 'roboto' sans-serif;line-height: 1.5rem;
 }
 .container{
@@ -34,7 +32,8 @@
   border-radius: 5px;
 }
 .icon {
-  margin-right: 18px;
+  margin-right:14px;
+  color: #55569e;
   
 }
 @media only  screen and (min-width:768px){
